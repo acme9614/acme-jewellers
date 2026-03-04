@@ -101,6 +101,10 @@ function navigateToLogout() {
   Toaster.postMessage("navigateToLogout");
 }
 
+function navigateToARVirtualTryOn() {
+  Toaster.postMessage("navigateToARVirtualTryOn");
+}
+
 // headerSwiper
 
 const headerSwiper = new Swiper("#headerSwiper", {
